@@ -2081,3 +2081,602 @@ footer > p {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body-portfolio {
+    margin: 0;
+    background-color: #F3EFE9;
+    color: #1D1D1D;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.header-portfolio {
+    background-color: #F3EFE9;
+    height: 4.5rem;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #A79684;
+}
+
+.marca-portfolio {
+    display: flex;
+    align-items: center;
+}
+
+.marca-portfolio h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    color: #1D1D1D;
+    margin: 0;
+}
+
+.separador-portfolio {
+    height: 1.5rem;
+    border-left: 1px solid #1D1D1D;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.marca-portfolio p {
+    color: #1D1D1D;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+
+
+.inicio-portfolio {
+    background-color: #F3EFE9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 7%;
+}
+
+.texto-inicio-portfolio {
+    width: 48%;
+}
+
+.hola-portfolio {
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+
+.texto-inicio-portfolio h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3.2rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.texto-inicio-portfolio h1 span {
+    display: block;
+}
+
+.linea-portfolio {
+    width: 4rem;
+    border-bottom: 2px solid #A88E72;
+    margin-bottom: 1.5rem;
+}
+
+.descripcion-portfolio {
+    width: 75%;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+.imagen-inicio-portfolio {
+    width: 40%;
+    height: 23rem;
+    margin-left: 3rem;
+    position: relative;
+}
+
+.cuadro-inicio {
+    background-color: #D8CCBF;
+    width: 90%;
+    height: 20rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 5%;
+}
+
+.imagen-inicio-portfolio img {
+    width: 78%;
+    position: absolute;
+    top: 3rem;
+    left: 11%;
+}
+
+
+
+.sobre-mi-portfolio {
+    background-color: #E6DED4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 5%;
+}
+
+.imagen-sobre-mi {
+    width: 32%;
+    height: 22rem;
+    position: relative;
+    margin-right: 2rem;
+    left: -3rem;
+}
+
+.cuadro-sobre-mi {
+    background-color: #CDBEAE;
+    width: 66%;
+    height: 20rem;
+    position: absolute;
+    top: 1rem;
+    left: 15%;
+}
+
+.imagen-sobre-mi img {
+    width: 54%;
+    position: absolute;
+    top: 2.5rem;
+    left: 21%;
+}
+
+
+
+.texto-sobre-mi {
+    width: 50%;
+}
+
+.texto-sobre-mi h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+
+.linea-sobre-mi {
+    width: 4rem;
+    border-bottom: 2px solid #A88E72;
+    margin-bottom: 1.5rem;
+}
+
+.texto-sobre-mi h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+}
+
+.carrera-portfolio {
+    font-size: 0.9rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.texto-sobre-mi p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+
+
+.proyectos-portfolio {
+    background-color: #F3EFE9;
+    padding: 3rem 7% 4rem 7%;
+}
+
+.proyectos-portfolio > h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+
+.linea-proyectos {
+    width: 100%;
+    border-bottom: 1px solid #A88E72;
+    margin-bottom: 2rem;
+}
+
+
+
+.galeria-portfolio {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-template-areas:
+        "proyecto1 proyecto1 proyecto1 proyecto1"
+        "proyecto2 proyecto2 proyecto3 proyecto3"
+        "proyecto4 proyecto5 proyecto6 proyecto7";
+
+    gap: 0.8rem;
+}
+
+.proyecto1 {
+    grid-area: proyecto1;
+}
+
+.proyecto2 {
+    grid-area: proyecto2;
+}
+
+.proyecto3 {
+    grid-area: proyecto3;
+}
+
+.proyecto4 {
+    grid-area: proyecto4;
+}
+
+.proyecto5 {
+    grid-area: proyecto5;
+}
+
+.proyecto6 {
+    grid-area: proyecto6;
+}
+
+.proyecto7 {
+    grid-area: proyecto7;
+}
+
+
+
+.galeria-portfolio div {
+    background-color: #E6DED4;
+    padding: 0.6rem;
+}
+
+.galeria-portfolio img {
+    width: 100%;
+}
+
+
+
+.galeria-portfolio h3 {
+    color: #1D1D1D;
+    font-size: 0.85rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.4rem;
+    margin-left: 0.3rem;
+}
+
+
+
+.descripcion-proyecto {
+    color: #333333;
+    font-size: 0.72rem;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.7rem;
+}
+
+
+
+.footer-portfolio {
+    background-color: #1D1D1D;
+    color: #F3EFE9;
+    height: 5rem;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marca-footer {
+    display: flex;
+    align-items: center;
+}
+
+.marca-footer h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    color: #F3EFE9;
+    margin: 0;
+}
+
+.separador-footer {
+    height: 1.5rem;
+    border-left: 1px solid #F3EFE9;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.marca-footer p {
+    color: #F3EFE9;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.acceso-desde-cero {
+    text-align: right;
+}
+
+.acceso-desde-cero a {
+    color: #F3EFE9;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .inicio-portfolio {
+        flex-direction: column;
+    }
+
+    .texto-inicio-portfolio {
+        width: 85%;
+        text-align: center;
+    }
+
+    .texto-inicio-portfolio h1 {
+        font-size: 3rem;
+    }
+
+    .linea-portfolio {
+        margin-left: 45%;
+    }
+
+    .descripcion-portfolio {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .imagen-inicio-portfolio {
+        width: 65%;
+        height: 22rem;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .cuadro-inicio {
+        width: 90%;
+        height: 19rem;
+        left: 5%;
+    }
+
+    .imagen-inicio-portfolio img {
+        width: 76%;
+        top: 3rem;
+        left: 12%;
+    }
+
+
+
+    .sobre-mi-portfolio {
+        flex-direction: column;
+    }
+
+    .imagen-sobre-mi {
+        width: 55%;
+        height: 22rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        left: 0;
+    }
+
+    .cuadro-sobre-mi {
+        width: 62%;
+        height: 20rem;
+        left: 19%;
+    }
+
+    .imagen-sobre-mi img {
+        width: 50%;
+        top: 2.5rem;
+        left: 25%;
+    }
+
+    .texto-sobre-mi {
+        width: 80%;
+        text-align: center;
+    }
+
+    .linea-sobre-mi {
+        margin-left: 45%;
+    }
+
+
+
+    .galeria-portfolio {
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-template-areas:
+            "proyecto1 proyecto1"
+            "proyecto2 proyecto3"
+            "proyecto4 proyecto5"
+            "proyecto6 proyecto7";
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .header-portfolio {
+        height: 4rem;
+        padding: 0 5%;
+    }
+
+
+
+    .inicio-portfolio {
+        flex-direction: column;
+        padding: 3rem 5%;
+    }
+
+    .texto-inicio-portfolio {
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto-inicio-portfolio h1 {
+        font-size: 2.7rem;
+    }
+
+    .linea-portfolio {
+        margin-left: 43%;
+    }
+
+    .descripcion-portfolio {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .imagen-inicio-portfolio {
+        width: 90%;
+        height: 19rem;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .cuadro-inicio {
+        width: 92%;
+        height: 17rem;
+        left: 4%;
+    }
+
+    .imagen-inicio-portfolio img {
+        width: 76%;
+        top: 3rem;
+        left: 12%;
+    }
+
+
+
+    .sobre-mi-portfolio {
+        flex-direction: column;
+        padding: 3rem 5%;
+    }
+
+    .imagen-sobre-mi {
+        width: 80%;
+        height: 20rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        left: 0;
+    }
+
+    .cuadro-sobre-mi {
+        width: 60%;
+        height: 18rem;
+        left: 20%;
+    }
+
+    .imagen-sobre-mi img {
+        width: 48%;
+        top: 2.5rem;
+        left: 26%;
+    }
+
+    .texto-sobre-mi {
+        width: 100%;
+        text-align: center;
+    }
+
+    .linea-sobre-mi {
+        margin-left: 43%;
+    }
+
+
+
+    .proyectos-portfolio {
+        padding: 3rem 5%;
+    }
+
+    .proyectos-portfolio > h2 {
+        font-size: 1.6rem;
+    }
+
+
+
+    .galeria-portfolio {
+        grid-template-columns: 1fr;
+
+        grid-template-areas:
+            "proyecto1"
+            "proyecto2"
+            "proyecto3"
+            "proyecto4"
+            "proyecto5"
+            "proyecto6"
+            "proyecto7";
+    }
+
+
+
+    .descripcion-proyecto {
+        font-size: 0.8rem;
+    }
+
+
+
+    .footer-portfolio {
+        height: 8rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .acceso-desde-cero {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+.footer-derecha {
+    text-align: right;
+}
+
+.footer-derecha p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.link-portfolio {
+    color: #000000;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.link-portfolio {
+    color: #000000;
+    text-decoration: none;
+}
+.copyright {
+    text-align: center;
+}
